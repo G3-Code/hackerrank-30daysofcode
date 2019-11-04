@@ -9,7 +9,7 @@ function BinaryNumber(n) {
 }
 
 let binaryVal = BinaryNumber(439);
-console.log(binaryVal);
+// console.log(binaryVal);
 
 let binaryValArr = binaryVal.split("");
 let newArr = [];
@@ -18,7 +18,7 @@ for (let i = 0; i < binaryValArr.length; i++) {
   //   console.log(binaryValArr[i]);
   if (binaryValArr[i] === "1") {
     count++;
-    console.log(count);
+    // console.log(count);
   } else {
     if (count) {
       newArr.push(count);
