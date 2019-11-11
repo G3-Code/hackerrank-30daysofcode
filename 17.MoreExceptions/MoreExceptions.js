@@ -11,3 +11,10 @@ class Calculator {
     }
   }
 }
+
+let myCalc = new Calculator();
+try {
+  myCalc.power(-3, -2);
+} catch (e) {
+  console.log(e);
+}
